@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>470</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>halign=left
+{
+			"first_name": "Brianne",
+			"middle_initial": "M",
+			"last_name": "Hulgan",
+			"roles": ["student", "daughter", "sibling", "employee", "spouse"],
+			"birthdate": [
+						{
+									"month": "09",
+									"day": "01",
+									"year": "2001",
+						},
+			],
+			"dependents": ["moose", "flint", "clover", "jupiter", "mars", "pluto"]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

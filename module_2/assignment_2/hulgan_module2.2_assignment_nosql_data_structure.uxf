@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>440</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>halign=left
+{
+			"student_id": 21345764,
+			"first_name": "Brianne",
+			"last_name": "Hulgan",
+			"enrollment": [
+						{
+										"term": "Spring",
+										"gpa": "3.5",
+										"start_date": "March 14, 2022",
+										"end_date": "July 24, 2022",
+										"course": [
+													{
+																"course_id": "CSD 310",
+																"description": "Database Development and Use",
+																"instructor": "Sue Sampson",
+																"grade": "A"
+													},
+													{
+																"course_id": "CSD 320",
+																"description": "Programming with Java",
+																"instructor": "Darrell Payne",
+																"grade": "A"
+													}
+										]
+						}
+			]
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
