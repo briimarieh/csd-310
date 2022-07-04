@@ -14,10 +14,10 @@ db = client.pytech
 print(f"\n-- DISPLAYING STUDENTS DOCUMENTS FROM find() QUERY --")
 docs = db.students.find({})
 for doc in docs:
-    print("\n Student ID: ", doc["student_id"] + "\n First Name: " + doc["first_name"] + "\n Last Name: " + doc["last_name"] + "\n")
+    print(f"\n Student ID: ", doc["student_id"] + "\n First Name: " + doc["first_name"] + "\n Last Name: " + doc["last_name"] + "\n")
 
 result = db.students.update_one({"student_id": "1007"}, {"$set": {"last_name": "Batley"}})
 
 print(f"\n-- DISPLAYING STUDENTS DOCUMENTS FROM find_one() QUERY --")
 doc = db.students.find_one({"student_id": "1007"})
-print("\n Student ID: ", doc["student_id"] + "\n First Name: " + doc["first_name"] + "\n Last Name: " + doc["last_name"] + "\n")
+print(f"\n Student ID: ", doc["student_id"] + "\n First Name: " + doc["first_name"] + "\n Last Name: " + doc["last_name"] + "\n")

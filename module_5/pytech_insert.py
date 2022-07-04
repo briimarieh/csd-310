@@ -2,9 +2,9 @@ from pymongo import MongoClient
  
 try:
     conn = MongoClient()
-    print("Connected successfully!!!")
+    print("\nConnected successfully!!!")
 except: 
-    print("Could not connect to MongoDB")
+    print("\nCould not connect to MongoDB")
 
 url = "mongodb+srv://admin:admin@cluster0.31kvgex.mongodb.net/?retryWrites=true&w=majority"
 
@@ -37,7 +37,7 @@ froggins = {
 
 froggins_student_id = students.insert_one(froggins).inserted_id
 
-print(f"\n- - INSERT STATEMENTS - -")
+print(f"\n-- INSERT STATEMENTS --")
 print(f"\nInserted student record Thorin Okenshield into the students collection with document_id", oakenshield_student_id)
 print(f"\nInserted student record Bilbo Baggins into the students collection with document_id", baggins_student_id)
 print(f"\nInserted student record Frodo Baggins into the students collection with document_id", froggins_student_id)
